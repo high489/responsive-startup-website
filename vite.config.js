@@ -5,7 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react(),svgr()],
-  //base: "/responsive-startup-website/",
+  base: "/responsive-startup-website/",
   resolve: {
     alias: {
       app: path.resolve(__dirname, './src/app'),
